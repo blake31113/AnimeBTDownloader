@@ -21,6 +21,8 @@ java version "1.7.0_45"
 Java(TM) SE Runtime Environment (build 1.7.0_45-b18)
 Java HotSpot(TM) 64-Bit Server VM (build 24.45-b08, mixed mode)
 ```
+If Java is acutually installed, but cannot use `$java ` to run, continue to follow the steps 
+
 
 ####3.[Download the latest release Animation BT Downloader](https://github.com/blake31113/AnimeBTDownloader/raw/master/AnimeBTDownloader_ver1.0.0.zip)
 
@@ -32,9 +34,9 @@ If don't use command line to execute, lots of garbled text will come out!
 
 If Java installed but cannot use `$java ` to run, try to find where Java installed and use command line to execute:
 
-    $ C:\Program Files\Java\jre7\bin\java -Dfile.encoding=UTF-8 -jar AnimeBTDownloader.jar
+    $ "C:\Program Files\Java\jre7\bin\java" -Dfile.encoding=UTF-8 -jar AnimeBTDownloader.jar
 
-p.s. my java is installed in `C:\Program Files\Java\jre7\bin\`
+p.s. my java is installed in `"C:\Program Files\Java\jre7\bin\"`
 
 ### What's included
 Within the download you'll find the following directories and files like this:
