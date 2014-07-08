@@ -13,10 +13,13 @@ Animation BT Downloader
 
     $ java -version
     
+if can run like as follows, it works.
+
+    
 ```
-    java version "1.7.0_45"
-    Java(TM) SE Runtime Environment (build 1.7.0_45-b18)
-    Java HotSpot(TM) 64-Bit Server VM (build 24.45-b08, mixed mode)
+java version "1.7.0_45"
+Java(TM) SE Runtime Environment (build 1.7.0_45-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 24.45-b08, mixed mode)
 ```
 
 ####3.[Download the latest release](https://github.com/blake31113/AnimeBTDownloader/raw/master/AnimeBTDownloader_ver1.0.0.zip)
