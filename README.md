@@ -1,6 +1,7 @@
 # [AnimeBTDownloader](https://github.com/blake31113/AnimeBTDownloader)
 
-Animation BT Downloader: Load and Parse Animation List from [Dmhy](http://share.dmhy.org/cms/page/name/programme.html), and Download Torrent from [KXTP](http://bt.ktxp.com/)
+Animation BT Downloader: 
+Load and Parse Animation List from [Dmhy](http://share.dmhy.org/cms/page/name/programme.html), and Download Torrent from [KXTP](http://bt.ktxp.com/)
 
 ## Contents
  - [Get Start](#get-start)
@@ -101,6 +102,7 @@ Right list is your Move Rules. You can add yours rule with two Textfields down b
 
 Move Button is for moving videos following the Move Rules.
 
+##### The subString of Moved Videos Name mush match the Rule
 ---
 ## Bugs and feature requests
 
