@@ -3,8 +3,8 @@
 Animation BT Downloader
 
 ## Contents
- - [Get Start](#Get Start)
- - [What's included](#What's included)
+ - [Get Start](#get-start)
+ - [What's included](#what's-included)
 
 ## Get Start
 
