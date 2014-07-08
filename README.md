@@ -126,10 +126,10 @@ Move Button is for moving videos following the Move Rules.
 ---
 ## Bugs and feature requests
 
-If any problems or ideas, [please add a new issue](https://github.com/blake31113/AnimeBTDownloader/issues/new), or [emailto me](blake31113@gmail.com).
+If any problems or ideas, [please add a new issue](https://github.com/blake31113/AnimeBTDownloader/issues/new), or [email to me](blake31113@gmail.com).
 
 ## License
-Copyright 2014 Blake K.C Lin 
+Copyright 2014 Blake K.C Lin [Licensed under CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
 
 [selectbt-img]:https://raw.githubusercontent.com/blake31113/AnimeBTDownloader/master/snapshot/selectbt.PNG
 [selectbt-garbled-img]:https://raw.githubusercontent.com/blake31113/AnimeBTDownloader/master/snapshot/selectbt_garbled.PNG
