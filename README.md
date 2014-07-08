@@ -8,3 +8,20 @@ Animation BT Downloader
 ## Get Start
 
 - [Download the latest release](https://github.com/blake31113/AnimeBTDownloader/raw/master/AnimeBTDownloader_ver1.0.0.zip).
+
+### What's included
+Within the download you'll find the following directories and files like this:
+
+```
+/
+├── config/
+│   ├── AnimeList.txt
+│   ├── MissionList.txt
+│   ├── MoveRule.txt
+│   └── Torrentlog.txt
+├── torrent/
+│   
+├── AnimeBTDownloader.jar
+│
+└── Config.txt
+```
