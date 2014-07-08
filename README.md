@@ -13,6 +13,7 @@ Load and Parse Animation List from [Dmhy](http://share.dmhy.org/cms/page/name/pr
  - [What's included](#whats-included)
  - [How to use](#how-to-use)
  - [Bugs and feature requests](#bugs-and-feature-requests)
+ - [License](#)
  
 
 ## Get Start
@@ -125,7 +126,10 @@ Move Button is for moving videos following the Move Rules.
 ---
 ## Bugs and feature requests
 
-If any problems or ideas, [please add a new issue](https://github.com/blake31113/AnimeBTDownloader/issues/new).
+If any problems or ideas, [please add a new issue](https://github.com/blake31113/AnimeBTDownloader/issues/new), or [emailto me](blake31113@gmail.com).
+
+## License
+Copyright 2014 Blake K.C Lin 
 
 [selectbt-img]:https://raw.githubusercontent.com/blake31113/AnimeBTDownloader/master/snapshot/selectbt.PNG
 [selectbt-garbled-img]:https://raw.githubusercontent.com/blake31113/AnimeBTDownloader/master/snapshot/selectbt_garbled.PNG
