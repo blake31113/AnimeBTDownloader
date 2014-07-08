@@ -15,13 +15,14 @@ Within the download you'll find the following directories and files like this:
 ```
 /
 ├── config/
-│   ├── AnimeList.txt       (for record animation list captured from [dmhy](http://share.dmhy.org/cms/page/name/programme.html))
-│   ├── MissionList.txt
-│   ├── MoveRule.txt
-│   └── Torrentlog.txt
-├── torrent/
-│   
-├── AnimeBTDownloader.jar
+│   ├── AnimeList.txt       (for recording animation lists captured from dmhy)
+│   ├── MissionList.txt     (for recording download missions)
+│   ├── MoveRule.txt        (for recording moving videos rule)
+│   └── Torrentlog.txt      (for recording downloaded torrents)
 │
-└── Config.txt
+├── torrent/                (for saving the download torrent)
+│   
+├── AnimeBTDownloader.jar   (the executable file)
+│
+└── Config.txt              (for setting)
 ```
