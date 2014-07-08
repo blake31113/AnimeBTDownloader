@@ -40,7 +40,7 @@ If Java is acutually installed, but cannot use `$java ` to run, continue to foll
 
     $ java -Dfile.encoding=UTF-8 -jar AnimeBTDownloader.jar
 
-If don't use command line to execute, lots of garbled text will come out!
+If don't use command line to execute, lots of garbled text will come out! like this
 
 ![selectbt-garbled] [selectbt-garbled-img]
 
@@ -70,6 +70,8 @@ Within the download you'll find the following directories and files like this:
 ## How to use
 After successfully execute AnimeBTDownloader.jar without garbled texts.
 
+![setting] [setting-img]
+
 ### Setting
 Set setting first
 #####- Use torrent client:
@@ -84,10 +86,12 @@ The place to store configs. (suggest not to change)
 The place to store videos.
 #####- Videos Move to path:
 The place to store path changed videos.
-
 ##### After modifying Settings, Push Save Config Button then Push Apply.
 ---
 ### Select BT
+
+![selectbt] [selectbt-img]
+
 ##### If left list is empty, push the ReloadList Button.
 
 Select the Animation and Fansub you want to download or Type the keyword into the rightup side Textfield. 
@@ -97,12 +101,18 @@ Push add to mission list button will get the value of Keyword Textfield to Downl
 ##### ReloadList_Web Button : reload the list from Dmhy (may be slower)
 ---
 ### Download
+
+![download] [download-img]
+
 Will load Mission List
 
 ##### Push Download Button will begin to download Torrents with Keywords from KXTP 
 
 ---
 ### Move To Directory
+
+![movetodirectory] [movetodirectory-img]
+
 Left list is your videos in Videos path.
 
 Right list is your Move Rules. You can add yours rule with two Textfields down below and Save it.
