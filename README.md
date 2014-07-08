@@ -32,7 +32,7 @@ If Java is acutually installed, but cannot use `$java ` to run, continue to foll
 
 If don't use command line to execute, lots of garbled text will come out!
 
-If Java installed but cannot use `$java ` to run, try to find where Java installed and use command line to execute:
+#####If Java installed but cannot use `$java ` to run, try to find where Java installed and use command line to execute:
 
     $ "C:\Program Files\Java\jre7\bin\java" -Dfile.encoding=UTF-8 -jar AnimeBTDownloader.jar
 
