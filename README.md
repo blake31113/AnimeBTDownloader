@@ -70,9 +70,11 @@ Within the download you'll find the following directories and files like this:
 ## How to use
 After successfully execute AnimeBTDownloader.jar without garbled texts.
 
-![setting] [setting-img]
+
 
 ### Setting
+![setting] [setting-img]
+
 Set setting first
 #####- Use torrent client:
 If use torrent client to download file.
