@@ -7,13 +7,13 @@ Animation BT Downloader
 
 ## Get Start
 
-1. [install JRE](http://java.com/zh_TW/download/).
-2. Check if Java can run:
+1.[install JRE](http://java.com/zh_TW/download/).
+2.Check if Java can run:
 
     $ java -version
     
-3. [Download the latest release](https://github.com/blake31113/AnimeBTDownloader/raw/master/AnimeBTDownloader_ver1.0.0.zip).
-4. Use command line to execute () 
+3.[Download the latest release](https://github.com/blake31113/AnimeBTDownloader/raw/master/AnimeBTDownloader_ver1.0.0.zip).
+4.Use command line to execute () 
 
     $ java -Dfile.encoding=UTF-8 -jar AnimeBTDownloader.jar
 
