@@ -32,9 +32,9 @@ If don't use command line to execute, lots of garbled text will come out!
 
 If Java installed but cannot use `$java ` to run, try to find where Java installed and use command line to execute:
 
-my java is installed in `C:\Program Files\Java\jre7\bin\`
-
     $ C:\Program Files\Java\jre7\bin\java -Dfile.encoding=UTF-8 -jar AnimeBTDownloader.jar
+
+p.s. my java is installed in `C:\Program Files\Java\jre7\bin\`
 
 ### What's included
 Within the download you'll find the following directories and files like this:
