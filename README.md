@@ -115,8 +115,8 @@ Move Button is for moving videos following the Move Rules.
 
 If any problems or ideas, [please add a new issue](https://github.com/blake31113/AnimeBTDownloader/issues/new).
 
-[selectbt-img]:https://github.com/blake31113/AnimeBTDownloader/blob/master/snapshot/selectbt.PNG
-[selectbt-garbled-img]:https://github.com/blake31113/AnimeBTDownloader/blob/master/snapshot/selectbt_garbled.PNG
-[download-img]:https://github.com/blake31113/AnimeBTDownloader/blob/master/snapshot/download.PNG
-[movetodirectory-img]:https://github.com/blake31113/AnimeBTDownloader/blob/master/snapshot/movetodirectory.PNG
-[setting-img]:https://github.com/blake31113/AnimeBTDownloader/blob/master/snapshot/setting.PNG
+[selectbt-img]:https://raw.githubusercontent.com/blake31113/AnimeBTDownloader/master/snapshot/selectbt.PNG
+[selectbt-garbled-img]:https://raw.githubusercontent.com/blake31113/AnimeBTDownloader/master/snapshot/selectbt_garbled.PNG
+[download-img]:https://raw.githubusercontent.com/blake31113/AnimeBTDownloader/master/snapshot/download.PNG
+[movetodirectory-img]:https://raw.githubusercontent.com/blake31113/AnimeBTDownloader/master/snapshot/movetodirectory.PNG
+[setting-img]:https://raw.githubusercontent.com/blake31113/AnimeBTDownloader/master/snapshot/setting.PNG
