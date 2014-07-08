@@ -9,9 +9,14 @@ Animation BT Downloader
 
 [install JRE](http://java.com/zh_TW/download/).
 Check if Java can run:
+
     $ java -version
+    
 [Download the latest release](https://github.com/blake31113/AnimeBTDownloader/raw/master/AnimeBTDownloader_ver1.0.0.zip).
-Use command line to execute () `$ java -Dfile.encoding=UTF-8 -jar AnimeBTDownloader.jar`
+Use command line to execute () 
+
+    $ java -Dfile.encoding=UTF-8 -jar AnimeBTDownloader.jar
+
 
 
 ### What's included
