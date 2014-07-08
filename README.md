@@ -1,6 +1,6 @@
 # [AnimeBTDownloader](https://github.com/blake31113/AnimeBTDownloader)
 
-Animation BT Downloader
+Animation BT Downloader: Load and Parse Animation List from [Dmhy](http://share.dmhy.org/cms/page/name/programme.html), and Download Torrent from [KXTP](http://bt.ktxp.com/)
 
 ## Contents
  - [Get Start](#get-start)
