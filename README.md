@@ -75,6 +75,7 @@ The place to store videos.
 #####- Videos Move to path:
 The place to store path changed videos.
 
+##### After modifying Settings, Push Save Config Button then Push Apply.
 ---
 ### Select BT
 If left list is empty, push the ReloadList Button.
@@ -88,8 +89,14 @@ Push add to mission list button will get the value of Keyword Textfield to Downl
 ### Download
 Will load Mission List
 
-Push Download Button will begin to download with Keywords from KXTP 
+Push Download Button will begin to download Torrents with Keywords from KXTP 
 
 ---
 ### Move To Directory
+Left list is your videos in Videos path.
+
+Right list is your Move Rules. You can add yours rule with two Textfields down below and Save it.
+
+Move Button is for moving videos following the Move Rules.
+
 ---
