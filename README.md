@@ -41,7 +41,8 @@ If Java is acutually installed, but cannot use `$java ` to run, continue to foll
     $ java -Dfile.encoding=UTF-8 -jar AnimeBTDownloader.jar
 
 If don't use command line to execute, lots of garbled text will come out!
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+![alt text](https://github.com/blake31113/AnimeBTDownloader/blob/master/snapshot/selectbt_garbled.PNG "Logo Title Text 1")
 
 #####If Java installed but cannot use `$java ` to run, try to find where Java installed and use command line to execute:
 
