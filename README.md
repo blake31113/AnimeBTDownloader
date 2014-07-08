@@ -5,7 +5,7 @@ Animation BT Downloader
 ## Contents
  - [Get Start](#get-start)
  - [What's included](#whats-included)
- - [How to use](#whats-included)
+ - [How to use](#how-to-use)
  
 
 ## Get Start
@@ -59,3 +59,22 @@ Within the download you'll find the following directories and files like this:
 └── Config.txt              (for setting)
 ```
 ## How to use
+
+### Setting
+Set setting first
+#####use torrent client:
+If use torrent client to download file.
+#####Torrent Client path:
+If use torrent client is selected, after downloading the torrent will use torrent client to download file.
+#####Torrent path:
+The place to store torrent.
+#####Configs path:
+The place to store configs. (suggest not to change)
+#####Videos path:
+The place to store videos.
+#####Videos Move to path:
+The place to store path changed videos.
+
+### Select BT
+### Download
+### Move To Directory
