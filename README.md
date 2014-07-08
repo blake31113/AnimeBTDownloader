@@ -5,6 +5,8 @@ Animation BT Downloader
 ## Contents
  - [Get Start](#get-start)
  - [What's included](#whats-included)
+ - [How to use](#whats-included)
+ 
 
 ## Get Start
 
@@ -56,3 +58,4 @@ Within the download you'll find the following directories and files like this:
 │
 └── Config.txt              (for setting)
 ```
+## How to use
