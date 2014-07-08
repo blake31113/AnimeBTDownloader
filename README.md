@@ -13,7 +13,7 @@ Animation BT Downloader
 
     $ java -version
     
-if can run like as follows, it works.
+If can run like as follows, it works.
 
     
 ```
@@ -28,7 +28,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 24.45-b08, mixed mode)
 
     $ java -Dfile.encoding=UTF-8 -jar AnimeBTDownloader.jar
 
-
+If don't use command line to execute, lots of garbled text will come out!
 
 ### What's included
 Within the download you'll find the following directories and files like this:
