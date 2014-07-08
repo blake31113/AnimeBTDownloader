@@ -1,5 +1,3 @@
-AnimeBTDownloader
-=================
 # [AnimeBTDownloader](https://github.com/blake31113/AnimeBTDownloader)
 
 Animation BT Downloader
