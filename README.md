@@ -75,12 +75,21 @@ The place to store videos.
 #####- Videos Move to path:
 The place to store path changed videos.
 
+---
 ### Select BT
 If left list is empty, push the ReloadList Button.
 
-Select the Animation and Fansub you want to download or Type the keyword into the rightup side Textfield.
+Select the Animation and Fansub you want to download or Type the keyword into the rightup side Textfield. 
+Push add to mission list button will get the value of Keyword Textfield to Download Mission List
+
 
 ##### ReloadList_Web Button : reload the list from Dmhy (may be slower)
-
+---
 ### Download
+Will load Mission List
+
+Push Download Button will begin to download with Keywords from KXTP 
+
+---
 ### Move To Directory
+---
