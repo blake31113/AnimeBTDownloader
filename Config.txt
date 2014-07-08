@@ -1,0 +1,6 @@
+useutorrent=true
+utorrentPath=C:/Program Files/BitComet/BitComet.exe
+torrentPath=./torrent/
+ConfigPath=./config/
+VideoPath=H:/
+VideoMoveToPath=H:/
