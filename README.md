@@ -6,6 +6,7 @@ Animation BT Downloader
  - [Get Start](#get-start)
  - [What's included](#whats-included)
  - [How to use](#how-to-use)
+ - [Bugs and feature requests](#bugs-and-feature-requests)
  
 
 ## Get Start
