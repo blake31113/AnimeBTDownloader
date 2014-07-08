@@ -62,17 +62,17 @@ Within the download you'll find the following directories and files like this:
 
 ### Setting
 Set setting first
-#####use torrent client:
+#####-use torrent client:
 If use torrent client to download file.
-#####Torrent Client path:
+#####-Torrent Client path:
 If use torrent client is selected, after downloading the torrent will use torrent client to download file.
-#####Torrent path:
+#####-Torrent path:
 The place to store torrent.
-#####Configs path:
+#####-Configs path:
 The place to store configs. (suggest not to change)
-#####Videos path:
+#####-Videos path:
 The place to store videos.
-#####Videos Move to path:
+#####-Videos Move to path:
 The place to store path changed videos.
 
 ### Select BT
