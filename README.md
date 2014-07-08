@@ -62,19 +62,25 @@ Within the download you'll find the following directories and files like this:
 
 ### Setting
 Set setting first
-#####-use torrent client:
+#####- Use torrent client:
 If use torrent client to download file.
-#####-Torrent Client path:
+#####- Torrent Client path:
 If use torrent client is selected, after downloading the torrent will use torrent client to download file.
-#####-Torrent path:
+#####- Torrent path:
 The place to store torrent.
-#####-Configs path:
+#####- Configs path:
 The place to store configs. (suggest not to change)
-#####-Videos path:
+#####- Videos path:
 The place to store videos.
-#####-Videos Move to path:
+#####- Videos Move to path:
 The place to store path changed videos.
 
 ### Select BT
+If left list is empty, push the ReloadList Button.
+
+Select the Animation and Fansub you want to download or Type the keyword into the rightup side Textfield.
+
+##### ReloadList_Web Button : reload the list from Dmhy (may be slower)
+
 ### Download
 ### Move To Directory
