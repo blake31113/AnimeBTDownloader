@@ -59,6 +59,7 @@ Within the download you'll find the following directories and files like this:
 └── Config.txt              (for setting)
 ```
 ## How to use
+After successfully execute AnimeBTDownloader.jar without garbled texts.
 
 ### Setting
 Set setting first
