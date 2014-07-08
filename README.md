@@ -15,7 +15,7 @@ Within the download you'll find the following directories and files like this:
 ```
 /
 ├── config/
-│   ├── AnimeList.txt
+│   ├── AnimeList.txt       (for record animation list captured from [dmhy](http://share.dmhy.org/cms/page/name/programme.html))
 │   ├── MissionList.txt
 │   ├── MoveRule.txt
 │   └── Torrentlog.txt
