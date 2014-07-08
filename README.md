@@ -1,6 +1,7 @@
 # [AnimeBTDownloader](https://github.com/blake31113/AnimeBTDownloader)
 
 Animation BT Downloader: 
+
 1. Download Animation torrent following the rule you defined.
 2. Automatically use torrent client to download file (the boolean of use torrent client have to be true)
 3. Move Downloaded Animations to Directory following the rule you defined.
