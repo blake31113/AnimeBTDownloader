@@ -79,7 +79,7 @@ The place to store path changed videos.
 ##### After modifying Settings, Push Save Config Button then Push Apply.
 ---
 ### Select BT
-If left list is empty, push the ReloadList Button.
+##### If left list is empty, push the ReloadList Button.
 
 Select the Animation and Fansub you want to download or Type the keyword into the rightup side Textfield. 
 Push add to mission list button will get the value of Keyword Textfield to Download Mission List
@@ -90,7 +90,7 @@ Push add to mission list button will get the value of Keyword Textfield to Downl
 ### Download
 Will load Mission List
 
-Push Download Button will begin to download Torrents with Keywords from KXTP 
+##### Push Download Button will begin to download Torrents with Keywords from KXTP 
 
 ---
 ### Move To Directory
@@ -101,3 +101,7 @@ Right list is your Move Rules. You can add yours rule with two Textfields down b
 Move Button is for moving videos following the Move Rules.
 
 ---
+## Bugs and feature requests
+
+If any problems or ideas, [please add a new issue](https://github.com/blake31113/AnimeBTDownloader/issues/new).
+
