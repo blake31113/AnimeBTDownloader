@@ -88,13 +88,14 @@ public class AnimeList
                     }
                 }
             }
-            FileWriter fw = new FileWriter("AnimeList.txt");
+            FileWriter fw = new FileWriter(Config.AnimeListFilePath);
             for(int i=0;i<fansubList.fansubDataSize();i++)
             {
                 fw.write(fansubList.getFansubData(i).getAnimeName()+"|");
                 for(int j=0;j<fansubList.getFansubData(i).getFansubSize();j++)
                 {
                     fw.write(fansubList.getFansubData(i).getFansub(j)+"|");
+//                    System.out.println(fansubList.getFansubData(i).getFansub(j));
                 }
                 fw.write("\r\n");
             }
