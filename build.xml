@@ -2,7 +2,7 @@
 <project name="animebtdownloader" default="all">
   
   
-  <property file="animebtdownloader.properties"/>
+  <!--<property file="animebtdownloader.properties"/>-->
   <!-- Uncomment the following property if no tests compilation is needed -->
   <!-- 
   <property name="skip.tests" value="true"/>
