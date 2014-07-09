@@ -35,7 +35,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 24.45-b08, mixed mode)
 If Java is acutually installed, but cannot use `$java ` to run, continue to follow the steps 
 
 
-####3.[Download the latest release Animation BT Downloader](https://github.com/blake31113/AnimeBTDownloader/raw/master/AnimeBTDownloader_ver1.0.0.zip)
+####3.[Download the latest release Animation BT Downloader ver1.0.1](https://github.com/blake31113/AnimeBTDownloader/raw/master/AnimeBTDownloader_ver1.0.1.zip)
 
 ####4.Use command line to execute:
 
