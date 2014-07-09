@@ -9,11 +9,11 @@
 從[動漫花園](http://share.dmhy.org/cms/page/name/programme.html)載入與分析動畫列表，從[極影](http://bt.ktxp.com/)下載種子
 
 ## 目錄
- - [開始](#get-start)
- - [資料夾中有些什麼？](#whats-included)
- - [如何使用](#how-to-use)
- - [問題回報與其它功能要求](#bugs-and-feature-requests)
- - [許可證](#)
+ - [開始](#%E9%96%8B%E5%A7%8B)
+ - [資料夾中有些什麼？](#%E8%B3%87%E6%96%99%E5%A4%BE%E4%B8%AD%E6%9C%89%E4%BA%9B%E4%BB%80%E9%BA%BC)
+ - [如何使用](#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8)
+ - [問題回報與其它功能要求](#%E5%95%8F%E9%A1%8C%E5%9B%9E%E5%A0%B1%E8%88%87%E5%85%B6%E5%AE%83%E5%8A%9F%E8%83%BD%E8%A6%81%E6%B1%82)
+ - [許可證](#%E8%A8%B1%E5%8F%AF%E8%AD%89)
  
 
 ## 開始
