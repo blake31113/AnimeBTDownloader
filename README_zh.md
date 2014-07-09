@@ -6,7 +6,7 @@
 2. 自動搭配 BT 下載工具下載檔案（必須勾選使用 BT 下載工具的選項）
 3. 移動下載後的動畫到你規定的資料夾
 
-載入與分析動畫列表從 [動漫花園](http://share.dmhy.org/cms/page/name/programme.html), 下載種子從 [極影](http://bt.ktxp.com/)
+從 [動漫花園](http://share.dmhy.org/cms/page/name/programme.html)載入與分析動畫列表，從 [極影](http://bt.ktxp.com/)下載種子
 
 ## 目錄
  - [開始](#get-start)
