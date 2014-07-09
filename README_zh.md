@@ -1,6 +1,6 @@
-# [動畫 BT 下載器](https://github.com/blake31113/AnimeBTDownloader)
+# [動畫 BT 種子下載器](https://github.com/blake31113/AnimeBTDownloader)
 
-動畫 BT 下載器: 
+動畫 BT 種子下載器: 
 
 1. 遵循你定義的規則，下載動畫種子
 2. 自動搭配 BT 下載工具下載檔案（必須勾選使用 BT 下載工具的選項）
@@ -36,7 +36,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 24.45-b08, mixed mode)
 
 如果 Java 確實安裝了，卻無法執行 `$java ` ，繼續以下步驟 
 
-####3.[下載最新版本的動畫 BT 下載器](https://github.com/blake31113/AnimeBTDownloader/raw/master/AnimeBTDownloader_ver1.0.1.zip)
+####3.[下載最新版本的動畫 BT 種子下載器](https://github.com/blake31113/AnimeBTDownloader/raw/master/AnimeBTDownloader_ver1.0.1.zip)
 
 ####4.使用 Command line 來執行：
 
@@ -70,7 +70,7 @@ p.s. 我的 Java 安裝在 `"C:\Program Files\Java\jre7\bin\"`
 └── Config.txt              (for setting)
 ```
 ## 如何使用
-在成功執行動畫 BT 下載器，且不會顯示亂碼後後
+在成功執行動畫 BT 種子下載器，且不會顯示亂碼後後
 
 ### 設置（ Setting ）
 ![setting] [setting-img]
