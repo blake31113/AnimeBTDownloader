@@ -21,6 +21,7 @@ Load and Parse Animation List from [Dmhy](http://share.dmhy.org/cms/page/name/pr
 ####1.[install JRE](http://java.com/zh_TW/download/)
 
 ####2.Check if Java can run:
+Use the Command Line to execute
 
     $ java -version
     
