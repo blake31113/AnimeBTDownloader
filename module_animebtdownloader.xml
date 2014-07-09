@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_animebtdownloader" default="compile.module.animebtdownloader">
+  <dirname property="module.animebtdownloader.basedir" file="${ant.file.module_animebtdownloader}"/>
+  
+  <property name="module.jdk.home.animebtdownloader" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.animebtdownloader" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.animebtdownloader" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.animebtdownloader" value="${compiler.args}"/>
+  
+  <property name="animebtdownloader.output.dir" value="${module.animebtdownloader.basedir}/out/production/AnimeBTDownloader"/>
+  <property name="animebtdownloader.testoutput.dir" value="${module.animebtdownloader.basedir}/out/test/AnimeBTDownloader"/>
+  
+  <path id="animebtdownloader.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="animebtdownloader.module.production.classpath">
+    <path refid="${module.jdk.classpath.animebtdownloader}"/>
+    <path refid="library.lib.classpath"/>
+  </path>
+  
+  <path id="animebtdownloader.runtime.production.module.classpath">
+    <pathelement location="${animebtdownloader.output.dir}"/>
+    <path refid="library.lib.classpath"/>
+  </path>
+  
+  <path id="animebtdownloader.module.classpath">
+    <path refid="${module.jdk.classpath.animebtdownloader}"/>
+    <pathelement location="${animebtdownloader.output.dir}"/>
+    <path refid="library.lib.classpath"/>
+  </path>
+  
+  <path id="animebtdownloader.runtime.module.classpath">
+    <pathelement location="${animebtdownloader.testoutput.dir}"/>
+    <pathelement location="${animebtdownloader.output.dir}"/>
+    <path refid="library.lib.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.animebtdownloader">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.animebtdownloader">
+    <patternset refid="excluded.from.module.animebtdownloader"/>
+  </patternset>
+  
+  <path id="animebtdownloader.module.sourcepath">
+    <dirset dir="${module.animebtdownloader.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.animebtdownloader" depends="compile.module.animebtdownloader.production,compile.module.animebtdownloader.tests" description="Compile module AnimeBTDownloader"/>
+  
+  <target name="compile.module.animebtdownloader.production" depends="register.custom.compilers" description="Compile module AnimeBTDownloader; production classes">
+    <mkdir dir="${animebtdownloader.output.dir}"/>
+    <javac2 destdir="${animebtdownloader.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.animebtdownloader}/javac">
+      <compilerarg line="${compiler.args.animebtdownloader}"/>
+      <bootclasspath refid="animebtdownloader.module.bootclasspath"/>
+      <classpath refid="animebtdownloader.module.production.classpath"/>
+      <src refid="animebtdownloader.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.animebtdownloader"/>
+    </javac2>
+    
+    <copy todir="${animebtdownloader.output.dir}">
+      <fileset dir="${module.animebtdownloader.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.animebtdownloader.tests" depends="register.custom.compilers,compile.module.animebtdownloader.production" description="compile module AnimeBTDownloader; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.animebtdownloader" description="cleanup module">
+    <delete dir="${animebtdownloader.output.dir}"/>
+    <delete dir="${animebtdownloader.testoutput.dir}"/>
+  </target>
+</project>
