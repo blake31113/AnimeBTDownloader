@@ -3,28 +3,29 @@
 動畫 BT 下載器: 
 
 1. 遵循你定義的規則，下載動畫種子
-2. 自動搭配 BT 下載器下載檔案（必須勾選使用 BT 下載器的選項）
+2. 自動搭配 BT 下載工具下載檔案（必須勾選使用 BT 下載工具的選項）
 3. 移動下載後的動畫到你規定的資料夾
 
-Load and Parse Animation List from [Dmhy](http://share.dmhy.org/cms/page/name/programme.html), and Download Torrent from [KXTP](http://bt.ktxp.com/)
+載入與分析動畫列表從 [動漫花園](http://share.dmhy.org/cms/page/name/programme.html), 下載種子從 [極影](http://bt.ktxp.com/)
 
-## Contents
- - [Get Start](#get-start)
- - [What's included](#whats-included)
- - [How to use](#how-to-use)
- - [Bugs and feature requests](#bugs-and-feature-requests)
- - [License](#)
+## 目錄
+ - [開始](#get-start)
+ - [資料夾中有些什麼？](#whats-included)
+ - [如何使用](#how-to-use)
+ - [問題回報與其它功能要求](#bugs-and-feature-requests)
+ - [許可證](#)
  
 
-## Get Start
+## 開始
 
-####1.[install JRE](http://java.com/zh_TW/download/)
+####1.[安裝 JAVA Runtime Environment](http://java.com/zh_TW/download/)
 
-####2.Check if Java can run:
+####2.檢查Java是否可以執行
+在 Command Line 下執行
 
     $ java -version
     
-If can run like as follows, it works.
+如果跑出下面以下的內容，代表成功了
 
     
 ```
@@ -32,27 +33,27 @@ java version "1.7.0_45"
 Java(TM) SE Runtime Environment (build 1.7.0_45-b18)
 Java HotSpot(TM) 64-Bit Server VM (build 24.45-b08, mixed mode)
 ```
-If Java is acutually installed, but cannot use `$java ` to run, continue to follow the steps 
 
+如果 Java 確實安裝了，卻無法執行 `$java ` ，繼續以下步驟 
 
-####3.[Download the latest release Animation BT Downloader](https://github.com/blake31113/AnimeBTDownloader/raw/master/AnimeBTDownloader_ver1.0.0.zip)
+####3.[下載最新版本的動畫 BT 下載器](https://github.com/blake31113/AnimeBTDownloader/raw/master/AnimeBTDownloader_ver1.0.1.zip)
 
-####4.Use command line to execute:
+####4.使用 Command line 來執行：
 
     $ java -Dfile.encoding=UTF-8 -jar AnimeBTDownloader.jar
 
-If don't use command line to execute, lots of garbled text will come out! like this
+如果不使用 Command line 來執行，會有許多亂碼跑出，如圖所示↓
 
 ![selectbt-garbled] [selectbt-garbled-img]
 
-#####If Java installed but cannot use `$java ` to run, try to find where Java installed and use command line to execute:
+#####如果 Java 安裝了，卻無法執行 `$java ` 嘗試找到 Java 安裝在哪裡然後使用 Command line 來執行:
 
     $ "C:\Program Files\Java\jre7\bin\java" -Dfile.encoding=UTF-8 -jar AnimeBTDownloader.jar
 
-p.s. my java is installed in `"C:\Program Files\Java\jre7\bin\"`
+p.s. 我的 Java 安裝在 `"C:\Program Files\Java\jre7\bin\"`
 
-### What's included
-Within the download you'll find the following directories and files like this:
+### 資料夾中有些什麼？
+在下載的檔案中，你會找到一些資料夾與檔案，如下
 
 ```
 /
@@ -68,67 +69,66 @@ Within the download you'll find the following directories and files like this:
 │
 └── Config.txt              (for setting)
 ```
-## How to use
-After successfully execute AnimeBTDownloader.jar without garbled texts.
+## 如何使用
+在成功執行動畫 BT 下載器，且不會顯示亂碼後後
 
-
-
-### Setting
+### 設置（ Setting ）
 ![setting] [setting-img]
 
-Set setting first
-#####- Use torrent client:
-If use torrent client to download file.
-#####- Torrent Client path:
-If use torrent client is selected, after downloading the torrent will use torrent client to download file.
-#####- Torrent path:
-The place to store torrent.
-#####- Configs path:
-The place to store configs. (suggest not to change)
-#####- Videos path:
-The place to store videos.
-#####- Videos Move to path:
-The place to store path changed videos.
-##### After modifying Settings, Push Save Config Button then Push Apply.
+在其它動作之前，設定設置
+
+#####- 是否使用 BT 下載工具（ Use torrent client ）：
+是否在下載完種子後，使用 BT 下載工具來下載檔案
+#####- BT 下載工具的位置（ Torrent Client path ）：
+BT 下載工具的執行檔案位置
+#####- 種子存放位置（ Torrent path ）：
+種子存放位置
+#####- 其它設定檔存放位置（ Configs path ）：
+其它設定檔存放位置（建議不要更改）
+#####- 影片存放位置（ Videos path ）：
+影片存放位置
+#####- 移動影片存放的目的地（ Videos Move to path ）：
+移動影片存放的目的地
+##### 在修改完設定後，按下存取設定（ Save Config ），之後在按應用（ Apply ）
 ---
-### Select BT
+### 選擇下載的動畫種子（ Select BT ）
 
 ![selectbt] [selectbt-img]
 
-##### If left list is empty, push the ReloadList Button.
+##### 如果左方烈表為空白的話，按下重新載入表單按鍵（ ReloadList Button ）
 
-Select the Animation and Fansub you want to download or Type the keyword into the rightup side Textfield. 
-Push add to mission list button will get the value of Keyword Textfield to Download Mission List
+選擇你想下載的動畫以及字幕組，或是將關鍵字打入右上方的空格內
+按下加入下載任務按鈕（ add to mission list ），會將右上方的關鍵字放入任務表單中
 
 
-##### ReloadList_Web Button : reload the list from Dmhy (may be slower)
+##### 從網路重新載入表單按鍵（ ReloadList_Web Button ）：會重新從動漫花園擷取分析動畫表單（ 可能虛要等待一些時間 ），通常從網路重新載入表單用於換季時才需使用
 ---
-### Download
+### 下載（ Download ）
 
 ![download] [download-img]
 
-Will load Mission List
+表列任務表單
 
-##### Push Download Button will begin to download Torrents with Keywords from KXTP 
+##### 按下下載按鈕（ Download Button ）會開始下載在極影關鍵字搜尋到的種子
 
 ---
-### Move To Directory
+### 移動到目錄（ Move To Directory ）
 
 ![movetodirectory] [movetodirectory-img]
 
-Left list is your videos in Videos path.
+左表單是你設定動畫存放的位置裡的動畫
 
-Right list is your Move Rules. You can add yours rule with two Textfields down below and Save it.
+右表單是你的移動規則，你可以自己使用下方兩個輸入增加規則
 
-Move Button is for moving videos following the Move Rules.
+移動按鍵（ Move Button ）按下後會開始移動動畫依照上方的規則
 
-##### The subString of Moved Videos Name must match the Rule
+##### 只會將動畫檔名中前方字串符合規則的移動
 ---
-## Bugs and feature requests
+## 問題回報與其它功能要求
 
-If any problems or ideas, [please add a new issue](https://github.com/blake31113/AnimeBTDownloader/issues/new), or [email to me](mailto:blake31113@gmail.com).
+如果有任何問題或想法，[請增加一個新的問題](https://github.com/blake31113/AnimeBTDownloader/issues/new)，或[使用電子郵件聯絡我](mailto:blake31113@gmail.com).
 
-## License
+## 許可證
 ####Copyright 2014 Blake K.C LIN. [Licensed under CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
 
 [selectbt-img]:https://raw.githubusercontent.com/blake31113/AnimeBTDownloader/master/snapshot/selectbt.PNG
